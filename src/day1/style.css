@@ -1,0 +1,113 @@
+.container {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(45deg, #1f3c8b, #60c4ce);
+  border-radius: 2%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerNumber {
+  width: 75%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 12%;
+}
+
+.containerText {
+  width: 60%;
+  height: 28%;
+  text-align: center;  
+}
+
+.title1 {
+  color: #fff;
+  font-size: 90px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: -5%;
+}
+
+.title2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: -4%;
+}
+
+.number1 {
+  height: 90%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.number2 {
+  height: 90%;
+  width: 33%;
+  position: relative;
+}
+
+.number3 {
+  height: 90%;
+  width: 33%;
+  position: relative;
+}
+
+.one {
+  position: absolute;
+  z-index: 100;
+  top: 5;
+  left: 80%;
+  height: 90%;
+  width: 30%;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.onePart {
+  position: absolute;
+  z-index: 100;
+  top: 7px;
+  left: 63%;
+  height: 44%;
+  width: 25%;
+  background: #fff;
+  border-radius: 3px;
+  transform: rotate(50deg);
+  box-shadow: -10 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.zero {
+  position: absolute;
+  z-index: 8;
+  top: 0;
+  left: 5%;
+  box-sizing: border-box;
+  height: 100%;
+  width: 105%;
+  border-radius: 50%;
+  border: 28px solid #fff;
+  box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
+
+.zero-two {
+  position: absolute;
+  z-index: 6;
+  top: 0;
+  left: -2%;
+  box-sizing: border-box;
+  height: 100%;
+  width: 105%;
+  border-radius: 50%;
+  border: 28px solid #fff;
+  box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+}
