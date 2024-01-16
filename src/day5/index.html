@@ -14,10 +14,10 @@
             <div class="title1">WEEKLEY REPORT</div>
             <div class="title2">01. Feb - 07. Feb</div>
           </div>
-          <divi class="value">
+          <div class="value">
             <div class="value1">Revenue</div>
             <div class="value2">$ 3621.79</div>
-          </divi>
+          </div>
         </div>
         <div class="legend">
           <div class="red"></div>
@@ -29,30 +29,36 @@
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
-          <div class="lineRed">
-            <div class="bollRed1"></div>
-            <div class="bollRed2"></div>
-            <div class="bollRed3"></div>
-            <div class="bollRed4"></div>
-            <div class="bollRed5"></div>
-            <div class="bollRed6"></div>
-            <div class="bollRed7"></div>
+          <div class="lineRed" id="lineRed">
+            <div class="bollRed bollRed1" data-target="statusRed1"></div>
+            <div class="statusRed1" id="statusRed1">458</div>
+            <div class="bollRed bollRed2" data-target="statusRed2"></div>
+            <div class="statusRed2" id="statusRed2">812</div>
+            <div class="bollRed bollRed3"></div>
+            <div class="statusRed3" id="statusRed3">746</div>
+            <div class="bollRed bollRed4"></div>
+            <div class="statusRed4" id="statusRed4">877</div>
+            <div class="bollRed bollRed5"></div>
+            <div class="statusRed5" id="statusRed5">517</div>
+            <div class="bollRed bollRed6"></div>
+            <div class="statusRed6" id="statusRed6">434</div>
+            <div class="bollRed bollRed7"></div>
+            <div class="statusRed7" id="statusRed7">458</div>
             <div class="lineRed1"></div>
             <div class="lineRed2"></div>
             <div class="lineRed3"></div>
             <div class="lineRed4"></div>
             <div class="lineRed5"></div>
             <div class="lineRed6"></div>
-            <div class="status1">458</div>
           </div>
-          <div class="lineBlue">
-            <div class="bollBlue1"></div>
-            <div class="bollBlue2"></div>
-            <div class="bollBlue3"></div>
-            <div class="bollBlue4"></div>
-            <div class="bollBlue5"></div>
-            <div class="bollBlue6"></div>
-            <div class="bollBlue7"></div>
+          <div class="lineBlue" id="lineBlue">
+            <div class="bollBlue bollBlue1"></div>
+            <div class="bollBlue bollBlue2"></div>
+            <div class="bollBlue bollBlue3"></div>
+            <div class="bollBlue bollBlue4"></div>
+            <div class="bollBlue bollBlue5"></div>
+            <div class="bollBlue bollBlue6"></div>
+            <div class="bollBlue bollBlue7"></div>
             <div class="lineBlue1"></div>
             <div class="lineBlue2"></div>
             <div class="lineBlue3"></div>
@@ -60,6 +66,13 @@
             <div class="lineBlue5"></div>
             <div class="lineBlue6"></div>
           </div>
+          <div class="statusBlue1" id="statusBlue1">26</div>
+          <div class="statusBlue2" id="statusBlue2">41</div>
+          <div class="statusBlue3" id="statusBlue3">22</div>
+          <div class="statusBlue4" id="statusBlue4">36</div>
+          <div class="statusBlue5" id="statusBlue5">25</div>
+          <div class="statusBlue6" id="statusBlue6">13</div>
+          <div class="statusBlue7" id="statusBlue7">20</div>
         </div>
         <div class="footer">
           <h3>MON</h3>
@@ -72,5 +85,21 @@
         </div>
       </div>
     </div>
+    <script>
+      var bollRedElements = document.querySelectorAll('.bollRed')
+
+      bollRedElements.forEach(function (bollRed) {
+        var targetId = bollRed.getAttribute('data-target')
+        var statusRed = document.getElementById(targetId)
+
+        bollRed.addEventListener('mouseover', function () {
+          statusRed.style.opacity = 1
+        })
+
+        bollRed.addEventListener('mouseout', function () {
+          statusRed.style.opacity = 0
+        })
+      })
+    </script>
   </body>
 </html>

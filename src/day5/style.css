@@ -215,93 +215,212 @@ h3 {
 
 .bollRed1 {
   background-color: red;
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
-  margin-left: 12%;
+  margin-left: 11%;
   margin-top: 12%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollRed2 {
   background-color: red;
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
-  margin-left: 25%;
-  margin-top: 1%;
+  margin-left: 24.5%;
+  margin-top: 0%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollRed3 {
   background-color: red;
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
-  margin-left: 37%;
-  margin-top: 7%;
+  margin-left: 36%;
+  margin-top: 6%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollRed4 {
   background-color: red;
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
-  margin-left: 50%;
+  margin-left: 49%;
   margin-top: 1%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollRed5 {
   background-color: red;
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   margin-left: 62%;
-  margin-top: 11%;
+  margin-top: 10.5%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollRed6 {
   background-color: red;
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   margin-left: 75%;
-  margin-top: 13%;
+  margin-top: 12%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollRed7 {
   background-color: red;
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   margin-left: 87%;
-  margin-top: 2%;
+  margin-top: 1%;
+  cursor: pointer;
+  padding: 1%;
 }
 
-.status1 {
+.statusRed1 {
   width: 10%;
-  height: 60%;
+  height: 30%;
   background-color: red;
   border-radius: 5%;
   margin-left: 8%;
-  margin-top: 3%;
+  margin-top: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  position: absolute;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
 }
 
-.status1:hover {
-  opacity: 1;
+.statusRed2 {
+  width: 10%;
+  height: 30%;
+  background-color: red;
+  border-radius: 5%;
+  margin-left: 22%;
+  margin-top: -8.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusRed3 {
+  width: 10%;
+  height: 30%;
+  background-color: red;
+  border-radius: 5%;
+  margin-left: 32%;
+  margin-top: -2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusRed4 {
+  width: 10%;
+  height: 30%;
+  background-color: red;
+  border-radius: 5%;
+  margin-left: 46%;
+  margin-top: -8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusRed5 {
+  width: 10%;
+  height: 30%;
+  background-color: red;
+  border-radius: 5%;
+  margin-left: 58%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusRed6 {
+  width: 10%;
+  height: 30%;
+  background-color: red;
+  border-radius: 5%;
+  margin-left: 72%;
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusRed7 {
+  width: 10%;
+  height: 30%;
+  background-color: red;
+  border-radius: 5%;
+  margin-left: 83%;
+  margin-top: -7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .lineBlue {
@@ -312,72 +431,86 @@ h3 {
 
 .bollBlue1 {
   background-color: rgb(129, 160, 213);
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   margin-left: 12%;
-  margin-top: 19%;
+  margin-top: 18%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollBlue2 {
   background-color: rgb(129, 160, 213);
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   margin-left: 25%;
-  margin-top: 15%;
+  margin-top: 14%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollBlue3 {
   background-color: rgb(129, 160, 213);
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   margin-left: 37%;
-  margin-top: 23%;
+  margin-top: 22%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollBlue4 {
   background-color: rgb(129, 160, 213);
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   margin-left: 50%;
-  margin-top: 17%;
+  margin-top: 16%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollBlue5 {
   background-color: rgb(129, 160, 213);
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   margin-left: 62%;
   margin-top: 21%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollBlue6 {
   background-color: rgb(129, 160, 213);
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   margin-left: 74.5%;
-  margin-top: 26%;
+  margin-top: 25%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .bollBlue7 {
   background-color: rgb(129, 160, 213);
-  width: 2%;
-  height: 15%;
+  width: 1%;
+  height: 10%;
   border-radius: 50%;
   position: absolute;
   margin-left: 87%;
-  margin-top: 21%;
+  margin-top: 20%;
+  cursor: pointer;
+  padding: 1%;
 }
 
 .lineBlue1 {
@@ -438,6 +571,132 @@ h3 {
   transform: rotate(68deg);
   margin-left: 82%;
   margin-top: 17.5%;
+}
+
+.statusBlue1 {
+  width: 10%;
+  height: 30%;
+  background-color: rgb(129, 160, 213);
+  border-radius: 5%;
+  margin-left: 21%;
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusBlue2 {
+  width: 10%;
+  height: 30%;
+  background-color: rgb(129, 160, 213);
+  border-radius: 5%;
+  margin-left: 33%;
+  margin-top: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusBlue3 {
+  width: 10%;
+  height: 30%;
+  background-color: rgb(129, 160, 213);
+  border-radius: 5%;
+  margin-left: 46%;
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusBlue4 {
+  width: 10%;
+  height: 30%;
+  background-color: rgb(129, 160, 213);
+  border-radius: 5%;
+  margin-left: 58%;
+  margin-top: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusBlue5 {
+  width: 10%;
+  height: 30%;
+  background-color: rgb(129, 160, 213);
+  border-radius: 5%;
+  margin-left: 71%;
+  margin-top: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusBlue6 {
+  width: 10%;
+  height: 30%;
+  background-color: rgb(129, 160, 213);
+  border-radius: 5%;
+  margin-left: 8%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.statusBlue7 {
+  width: 10%;
+  height: 30%;
+  background-color: rgb(129, 160, 213);
+  border-radius: 5%;
+  margin-left: 83%;
+  margin-top: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .line1 {
