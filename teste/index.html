@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h2 {
+        color: red;
+      }
+
+      p {
+        color: blue;
+      }
+
+      h2 + p {
+        color: green;
+      }
+
+      h2 ~ p {
+        color: orange;
+      }
+
+      div p {
+        color: red;
+      }
+    </style>
+    <title>Desafio CSS</title>
+  </head>
+  <body>
+    <h2>Título 1</h2>
+    <p id="p1">Este parágrafo não será afetado</p>
+    <p>Este parágrafo será afetado (terá a cor azul)</p>
+
+    <div>
+      <h2>Título 2</h2>
+      <p>Este parágrafo não será afetado</p>
+      <p>Este parágrafo será afetado (terá a cor azul)</p>
+    </div>
+
+    <p>Este parágrafo não será afetado</p>
+  </body>
+  <script>
+    var p1 = document.getElementById('p1')
+    var texto = p1.textContent
+    p1.textContent = 'Novo texto'
+    var htmlInterno = p1.innerHTML
+    p1.innerHTML = '<strong>Nova</strong> Marcação'
+  </script>
+</html>
